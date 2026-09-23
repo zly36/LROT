@@ -1,0 +1,65 @@
+#    Ligand     Receptor        w  Family                     CellChatDB 同型
+--------------------------------------------------------------------------
+1    Ntng1      Ntrk2        0.95  Neurotrophin / Growth Factor 否          
+2    Bdnf       Ntrk2        0.92  Neurotrophin / Growth Factor 是          
+3    Ntf3       Ntrk3        0.90  Neurotrophin / Growth Factor 是          
+4    Ngf        Ntrk1        0.88  Neurotrophin / Growth Factor 是          
+5    Gdnf       Gfra1        0.85  Neurotrophin / Growth Factor 是          
+6    Artn       Gfra3        0.80  Neurotrophin / Growth Factor 是          
+7    Nrtn       Gfra2        0.78  Neurotrophin / Growth Factor 是          
+8    Fgf8       Fgfr1        0.90  Neurotrophin / Growth Factor 是          
+9    Fgf15      Fgfr2        0.85  Neurotrophin / Growth Factor 是          
+10   Fgf10      Fgfr2        0.82  Neurotrophin / Growth Factor 是          
+11   Fgf2       Fgfr1        0.88  Neurotrophin / Growth Factor 是          
+12   Egf        Egfr         0.85  Neurotrophin / Growth Factor 是          
+13   Hgf        Met          0.83  Neurotrophin / Growth Factor 是          
+14   Vegfa      Kdr          0.90  Neurotrophin / Growth Factor 是          
+15   Vegfb      Flt1         0.78  Neurotrophin / Growth Factor 是          
+16   Pdgfa      Pdgfra       0.80  Neurotrophin / Growth Factor 是          
+17   Pdgfb      Pdgfrb       0.82  Neurotrophin / Growth Factor 是          
+18   Igf1       Igf1r        0.85  Neurotrophin / Growth Factor 是          
+19   Igf2       Igf1r        0.80  Neurotrophin / Growth Factor 是          
+20   Wnt3a      Fzd1         0.88  Wnt                        是          
+21   Wnt5a      Fzd5         0.85  Wnt                        是          
+22   Wnt7a      Fzd10        0.82  Wnt                        是          
+23   Wnt1       Fzd1         0.80  Wnt                        是          
+24   Dll1       Notch1       0.90  Notch                      是          
+25   Dll4       Notch4       0.85  Notch                      是          
+26   Jag1       Notch1       0.88  Notch                      是          
+27   Jag2       Notch2       0.83  Notch                      是          
+28   Efnb1      Ephb2        0.90  Ephrin                     是          
+29   Efna1      Epha4        0.85  Ephrin                     是          
+30   Efnb2      Ephb4        0.82  Ephrin                     是          
+31   Efna5      Epha3        0.78  Ephrin                     是          
+32   Sema3a     Nrp1         0.90  Semaphorin                 是          
+33   Sema3f     Nrp2         0.85  Semaphorin                 是          
+34   Sema4d     Plxnb1       0.80  Semaphorin                 是          
+35   Sema6a     Plxna2       0.75  Semaphorin                 是          
+36   Slit1      Robo1        0.88  Slit/Robo                  否          
+37   Slit2      Robo2        0.85  Slit/Robo                  否          
+38   Slit3      Robo2        0.80  Slit/Robo                  否          
+39   Cxcl12     Cxcr4        0.95  Chemokine / Cytokine       是          
+40   Cxcl13     Cxcr5        0.85  Chemokine / Cytokine       是          
+41   Ccl2       Ccr2         0.82  Chemokine / Cytokine       是          
+42   Ccl5       Ccr5         0.80  Chemokine / Cytokine       是          
+43   Il1b       Il1r1        0.90  Chemokine / Cytokine       是          
+44   Tnf        Tnfrsf1a     0.88  Chemokine / Cytokine       是          
+45   Tgfb1      Tgfbr1       0.92  Chemokine / Cytokine       是          
+46   Tgfb2      Tgfbr2       0.88  Chemokine / Cytokine       是          
+47   Bmp4       Bmpr1a       0.85  BMP                        是          
+48   Bmp7       Bmpr2        0.80  BMP                        是          
+49   Bmp2       Acvr1        0.82  BMP                        否          
+50   Cdh1       Cdh1         0.95  Cell Adhesion              是          是
+51   Cdh2       Cdh2         0.92  Cell Adhesion              是          是
+52   Ncam1      Ncam1        0.85  Cell Adhesion              是          是
+53   L1cam      L1cam        0.80  Cell Adhesion              是          是
+54   Lama1      Itga1        0.78  Cell Adhesion              是          
+55   Col1a1     Itga2        0.75  Cell Adhesion              是          
+56   Vtn        Itgav        0.72  Cell Adhesion              是          
+57   Shh        Ptch1        0.90  Hedgehog                   是          
+58   Ihh        Ptch2        0.82  Hedgehog                   是          
+59   Dhh        Ptch1        0.78  Hedgehog                   是          
+60   Reln       Lrp8         0.90  Reelin                     否          
+61   Reln       Vldlr        0.85  Reelin                     否          
+--------------------------------------------------------------------------
+合计 61 对 / 109 个基因 / 11 个家族；与 CellChatDB.mouse 重叠 54 对

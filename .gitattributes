@@ -1,0 +1,15 @@
+# 逐字节复现：文本文件统一以 LF 存储/检出，二进制不做任何转换。
+# 这样在任何平台、任何 core.autocrlf 设置下，git clone 检出的字节
+# 都与 MANIFEST.sha256 记录的一致。
+* text=auto eol=lf
+
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.npz  binary
+*.npy  binary
+*.pkl  binary
+*.rda  binary
+*.h5   binary
+*.xlsx binary
+*.zip  binary

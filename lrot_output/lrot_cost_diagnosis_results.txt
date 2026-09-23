@@ -1,0 +1,39 @@
+============================================================================
+Cost-balance diagnosis: is "robustness" structural or trivial?
+Fixed alpha=0.5, beta=0.3, gamma=0.1; 5 seeds; rotation=5deg; batch=0 base
+Per-gene batch models on slice B: Lognormal(0,sigma) / Log1p-additive N(0,sigma)
+============================================================================
+seed=42 base: acc=0.712 ent=3.9272 shares expr/lr/gw=0.708/0.164/0.128
+  gene sigma=0.3 seed=42: acc=0.708 ent=3.9423 | dCe=0.0244 dCl=0.0238 dCg=0.0014
+  gene sigma=0.5 seed=42: acc=0.705 ent=3.9897 | dCe=0.0449 dCl=0.0419 dCg=0.0025
+  geneadd sigma=0.3 seed=42: acc=0.706 ent=4.4868 | dCe=0.0515 dCl=0.0805 dCg=0.0035
+  geneadd sigma=0.5 seed=42: acc=0.709 ent=4.9498 | dCe=0.0783 dCl=0.0982 dCg=0.0078
+seed=1042 base: acc=0.748 ent=3.8690 shares expr/lr/gw=0.721/0.128/0.151
+  gene sigma=0.3 seed=1042: acc=0.751 ent=3.8239 | dCe=0.0253 dCl=0.0141 dCg=0.0015
+  gene sigma=0.5 seed=1042: acc=0.753 ent=3.8427 | dCe=0.0484 dCl=0.0266 dCg=0.0032
+  geneadd sigma=0.3 seed=1042: acc=0.762 ent=4.3993 | dCe=0.0565 dCl=0.0745 dCg=0.0054
+  geneadd sigma=0.5 seed=1042: acc=0.769 ent=4.8855 | dCe=0.0855 dCl=0.0949 dCg=0.0161
+seed=2042 base: acc=0.775 ent=3.8673 shares expr/lr/gw=0.753/0.146/0.101
+  gene sigma=0.3 seed=2042: acc=0.774 ent=3.8749 | dCe=0.0191 dCl=0.0182 dCg=0.0006
+  gene sigma=0.5 seed=2042: acc=0.774 ent=3.8842 | dCe=0.0349 dCl=0.0324 dCg=0.0011
+  geneadd sigma=0.3 seed=2042: acc=0.773 ent=4.2998 | dCe=0.0393 dCl=0.0897 dCg=0.0014
+  geneadd sigma=0.5 seed=2042: acc=0.784 ent=4.6444 | dCe=0.0628 dCl=0.1109 dCg=0.0028
+seed=3042 base: acc=0.679 ent=3.8414 shares expr/lr/gw=0.775/0.121/0.104
+  gene sigma=0.3 seed=3042: acc=0.685 ent=3.8250 | dCe=0.0213 dCl=0.0180 dCg=0.0015
+  gene sigma=0.5 seed=3042: acc=0.690 ent=3.8248 | dCe=0.0416 dCl=0.0568 dCg=0.0028
+  geneadd sigma=0.3 seed=3042: acc=0.693 ent=4.4121 | dCe=0.0501 dCl=0.0790 dCg=0.0045
+  geneadd sigma=0.5 seed=3042: acc=0.706 ent=4.8603 | dCe=0.0766 dCl=0.1096 dCg=0.0097
+seed=4042 base: acc=0.612 ent=4.0129 shares expr/lr/gw=0.729/0.165/0.106
+  gene sigma=0.3 seed=4042: acc=0.609 ent=4.0479 | dCe=0.0239 dCl=0.0161 dCg=0.0008
+  gene sigma=0.5 seed=4042: acc=0.613 ent=4.1105 | dCe=0.0447 dCl=0.0288 dCg=0.0016
+  geneadd sigma=0.3 seed=4042: acc=0.623 ent=4.5882 | dCe=0.0492 dCl=0.0743 dCg=0.0046
+  geneadd sigma=0.5 seed=4042: acc=0.611 ent=4.9617 | dCe=0.0713 dCl=0.0926 dCg=0.0080
+
+============================================================================
+AGGREGATE (5-seed means)  base acc=0.705  base entropy=3.9036
+base contribution shares: expr=73.7%  lr=14.5%  gw=11.8%
+mode         sigma  acc        entropy    E-share   LR-share  GW-share  dCe       dCl      
+gene         0.3    0.705      3.9028     0.743     0.143     0.114     0.0228    0.0181   
+gene         0.5    0.707      3.9304     0.753     0.140     0.107     0.0429    0.0373   
+geneadd      0.3    0.711      4.4372     0.770     0.126     0.103     0.0493    0.0796   
+geneadd      0.5    0.716      4.8603     0.799     0.114     0.088     0.0749    0.1012   

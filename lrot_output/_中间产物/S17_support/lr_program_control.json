@@ -1,0 +1,174 @@
+{
+ "synthetic": [
+  {
+   "seed": 42,
+   "lr_program": true,
+   "gamma": 0.0,
+   "acc": 0.363,
+   "entropy": 3.560934665350054
+  },
+  {
+   "seed": 42,
+   "lr_program": true,
+   "gamma": 0.1,
+   "acc": 0.631,
+   "entropy": 3.5589050634647923
+  },
+  {
+   "seed": 42,
+   "lr_program": false,
+   "gamma": 0.0,
+   "acc": 0.363,
+   "entropy": 3.560934665350054
+  },
+  {
+   "seed": 42,
+   "lr_program": false,
+   "gamma": 0.1,
+   "acc": 0.367,
+   "entropy": 3.55752758038326
+  },
+  {
+   "seed": 43,
+   "lr_program": true,
+   "gamma": 0.0,
+   "acc": 0.359,
+   "entropy": 3.4865104358514047
+  },
+  {
+   "seed": 43,
+   "lr_program": true,
+   "gamma": 0.1,
+   "acc": 0.366,
+   "entropy": 3.4887787244317336
+  },
+  {
+   "seed": 43,
+   "lr_program": false,
+   "gamma": 0.0,
+   "acc": 0.359,
+   "entropy": 3.4865104358514047
+  },
+  {
+   "seed": 43,
+   "lr_program": false,
+   "gamma": 0.1,
+   "acc": 0.358,
+   "entropy": 3.483714402891718
+  },
+  {
+   "seed": 44,
+   "lr_program": true,
+   "gamma": 0.0,
+   "acc": 0.326,
+   "entropy": 3.555722383710812
+  },
+  {
+   "seed": 44,
+   "lr_program": true,
+   "gamma": 0.1,
+   "acc": 0.612,
+   "entropy": 3.5363044175911007
+  },
+  {
+   "seed": 44,
+   "lr_program": false,
+   "gamma": 0.0,
+   "acc": 0.326,
+   "entropy": 3.555722383710812
+  },
+  {
+   "seed": 44,
+   "lr_program": false,
+   "gamma": 0.1,
+   "acc": 0.322,
+   "entropy": 3.5533045420377722
+  }
+ ],
+ "realistic": [
+  {
+   "seed": 42,
+   "lr_program": true,
+   "gamma": 0.0,
+   "acc": 0.711,
+   "entropy": 4.035127962437146
+  },
+  {
+   "seed": 42,
+   "lr_program": true,
+   "gamma": 0.1,
+   "acc": 0.712,
+   "entropy": 3.9278691068986635
+  },
+  {
+   "seed": 42,
+   "lr_program": false,
+   "gamma": 0.0,
+   "acc": 0.767,
+   "entropy": 4.273101649936136
+  },
+  {
+   "seed": 42,
+   "lr_program": false,
+   "gamma": 0.1,
+   "acc": 0.764,
+   "entropy": 3.957799361443349
+  },
+  {
+   "seed": 43,
+   "lr_program": true,
+   "gamma": 0.0,
+   "acc": 0.74,
+   "entropy": 4.049548806604124
+  },
+  {
+   "seed": 43,
+   "lr_program": true,
+   "gamma": 0.1,
+   "acc": 0.751,
+   "entropy": 3.934827803855722
+  },
+  {
+   "seed": 43,
+   "lr_program": false,
+   "gamma": 0.0,
+   "acc": 0.798,
+   "entropy": 4.345671463681149
+  },
+  {
+   "seed": 43,
+   "lr_program": false,
+   "gamma": 0.1,
+   "acc": 0.787,
+   "entropy": 4.027868049969376
+  },
+  {
+   "seed": 44,
+   "lr_program": true,
+   "gamma": 0.0,
+   "acc": 0.967,
+   "entropy": 3.8479296726064383
+  },
+  {
+   "seed": 44,
+   "lr_program": true,
+   "gamma": 0.1,
+   "acc": 0.964,
+   "entropy": 3.734871613972858
+  },
+  {
+   "seed": 44,
+   "lr_program": false,
+   "gamma": 0.0,
+   "acc": 0.855,
+   "entropy": 4.1423453846295235
+  },
+  {
+   "seed": 44,
+   "lr_program": false,
+   "gamma": 0.1,
+   "acc": 0.859,
+   "entropy": 3.8139582049243193
+  }
+ ]
+}

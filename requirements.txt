@@ -1,0 +1,39 @@
+# LROT 论文实验环境（Python 侧依赖，实测版本锁定）
+# 解释器: Python 3.10.11 (Windows 11 / AMD64)
+#
+# 说明：
+#  1) 本文件只覆盖 Python 侧依赖。基线对照所用的官方 PASTE / PASTE2 / STAligner
+#     各自独立发布，需按官方说明单独安装（对应补充表 S14 与补充材料 S6）。
+#  2) 有两个模块不在 PyPI：
+#     · paste_math —— 官方 PASTE 的求解器与 helper 模块（本仓库以 paste_math 之名导入），
+#                     从 PASTE 官方仓库取得后置于可导入路径；
+#     · fig_align  —— 本包自带，位于 experiments/fig_align.py，无需安装。
+POT==0.9.6.post1
+STAligner==1.0.0
+anndata==0.11.4
+gseapy==1.1.13
+h5py==3.16.0
+igraph==1.0.0
+latex2mathml==3.81.0
+leidenalg==0.12.0
+mathml2omml==0.0.2
+matplotlib==3.10.7
+mygene==3.2.2
+networkx==3.4.2
+numba==0.65.0
+numpy==2.2.6
+pandas==2.3.3
+paste2==1.0.1
+pillow==12.0.0
+psutil==7.2.2
+python-docx==1.2.0
+python-pptx==1.0.2
+rdata==0.11.2
+requests==2.33.1
+scanpy==1.11.5
+scikit-learn==1.7.2
+scipy==1.15.3
+seaborn==0.13.2
+statsmodels==0.14.6
+torch==2.11.0
+torch-geometric==2.8.0

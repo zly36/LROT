@@ -1,0 +1,16 @@
+========================================================================
+  LROT Synthetic Data Experiment Results
+========================================================================
+Data: 1000 spots x 200 genes, 4 regions
+Transform: rotation=8.6 deg, translation=(0.5, 0.3)
+
+  Method              Acc     Cost
+  ----------------------------------------
+  gamma=0.0    FGW     0.3630   0.4553
+  gamma=0.05           0.3770   0.4547
+  gamma=0.1    LROT    0.6310   0.4439
+  gamma=0.2            0.6190   0.4438
+
+  LROT (gamma=0.1) acc: 0.6310
+  FGW  (gamma=0.0) acc: 0.3630
+  Improvement: 73.8%

@@ -1,0 +1,9 @@
+LROT second-donor DLPFC replication (151669/151670/151671)
+Pipeline identical to run_dlpfc_visium.py (1000 spots, 2 deg + 0.5 misalignment)
+Pair 151669-151670: entropy reduction 13.01% | soft-ARI change +0.055 | same-layer mass change +0.0054
+  FGW : 熵=6.2253  成本=0.0633  软ARI=0.345  硬ARI=0.673  同层质量=0.5575  软准确率=0.672  硬准确率=0.761  NN准确率=0.713  时间=13.6s
+  LROT: 熵=5.4151  成本=0.0633  软ARI=0.400  硬ARI=0.531  同层质量=0.5628  软准确率=0.690  硬准确率=0.719  NN准确率=0.704  时间=10.1s
+Pair 151670-151671: entropy reduction 12.26% | soft-ARI change -0.002 | same-layer mass change -0.0029
+  FGW : 熵=6.3551  成本=0.0781  软ARI=0.543  硬ARI=0.582  同层质量=0.5009  软准确率=0.763  硬准确率=0.681  NN准确率=0.573  时间=16.2s
+  LROT: 熵=5.5757  成本=0.0779  软ARI=0.541  硬ARI=0.450  同层质量=0.4980  软准确率=0.756  硬准确率=0.629  NN准确率=0.559  时间=20.9s
+Donor2 mean (2 pairs): entropy reduction 12.64% | soft-ARI +0.027 | same-layer mass +0.0012

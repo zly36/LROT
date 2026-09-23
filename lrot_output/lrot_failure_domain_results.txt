@@ -1,0 +1,48 @@
+==============================================================================
+Failure-domain scan: robustness limit of fixed default weights (alpha=0.5,beta=0.3,gamma=0.1)
+log1p-additive batch on slice B, sigma in {0,0.3,0.5,1.0,1.5}; 5 seeds; rotation=5deg
+Grid: LROT gamma=0.1, alpha in {0.3,0.5,0.7,0.9}; FGW(gamma=0) at alpha=0.5 as reference
+==============================================================================
+
+--- Default alpha=0.5 : LROT vs FGW vs batch strength ---
+sigma  LROT acc         FGW acc          dAcc     LROT entropy   FGW entropy    EntDrop%
+0.0    0.705            0.702            0.003    3.9036         4.0232         3.0     
+0.3    0.711            0.716            -0.004   4.4372         4.4853         1.1     
+0.5    0.716            0.723            -0.007   4.8603         4.9043         0.9     
+1.0    0.678            0.679            -0.001   5.5774         5.6181         0.7     
+1.5    0.526            0.541            -0.015   5.9527         5.9972         0.7     
+  limit check: sigma=0.3 default acc=0.711 (rel change 0.9% vs sigma=0)
+  limit check: sigma=0.5 default acc=0.716 (rel change 1.5% vs sigma=0)
+  limit check: sigma=1.0 default acc=0.678 (rel change -3.9% vs sigma=0)
+  limit check: sigma=1.5 default acc=0.526 (rel change -25.4% vs sigma=0)
+
+--- alpha x sigma grid (LROT, gamma=0.1) : accuracy / entropy ---
+sigma  a=0.3 acc/ent a=0.5 acc/ent a=0.7 acc/ent a=0.9 acc/ent
+  sigma=0.0 alpha=0.3 -> acc=0.709 +/- 0.053 | ent=4.7400 +/- 0.0517
+  sigma=0.0 alpha=0.5 -> acc=0.705 +/- 0.057 | ent=3.9036 +/- 0.0615
+  sigma=0.0 alpha=0.7 -> acc=0.696 +/- 0.054 | ent=3.1109 +/- 0.0694
+  sigma=0.0 alpha=0.9 -> acc=0.693 +/- 0.052 | ent=2.4974 +/- 0.0610
+  sigma=0.3 alpha=0.3 -> acc=0.710 +/- 0.056 | ent=5.0858 +/- 0.0772
+  sigma=0.3 alpha=0.5 -> acc=0.711 +/- 0.054 | ent=4.4372 +/- 0.0961
+  sigma=0.3 alpha=0.7 -> acc=0.704 +/- 0.054 | ent=3.7392 +/- 0.1206
+  sigma=0.3 alpha=0.9 -> acc=0.697 +/- 0.055 | ent=3.1086 +/- 0.1222
+  sigma=0.5 alpha=0.3 -> acc=0.695 +/- 0.059 | ent=5.3351 +/- 0.0945
+  sigma=0.5 alpha=0.5 -> acc=0.716 +/- 0.061 | ent=4.8603 +/- 0.1145
+  sigma=0.5 alpha=0.7 -> acc=0.718 +/- 0.056 | ent=4.3146 +/- 0.1414
+  sigma=0.5 alpha=0.9 -> acc=0.704 +/- 0.057 | ent=3.7470 +/- 0.1566
+  sigma=1.0 alpha=0.3 -> acc=0.556 +/- 0.112 | ent=5.7820 +/- 0.1035
+  sigma=1.0 alpha=0.5 -> acc=0.678 +/- 0.074 | ent=5.5774 +/- 0.1735
+  sigma=1.0 alpha=0.7 -> acc=0.725 +/- 0.070 | ent=5.3382 +/- 0.2212
+  sigma=1.0 alpha=0.9 -> acc=0.726 +/- 0.076 | ent=5.0171 +/- 0.2519
+  sigma=1.5 alpha=0.3 -> acc=0.431 +/- 0.131 | ent=5.9496 +/- 0.0868
+  sigma=1.5 alpha=0.5 -> acc=0.526 +/- 0.134 | ent=5.9527 +/- 0.1796
+  sigma=1.5 alpha=0.7 -> acc=0.601 +/- 0.113 | ent=5.9167 +/- 0.2765
+  sigma=1.5 alpha=0.9 -> acc=0.650 +/- 0.105 | ent=5.7817 +/- 0.3451
+
+--- Best alpha per sigma (mean accuracy) ---
+sigma  best alpha best acc       default acc
+0.0    0.3        0.709          0.705     
+0.3    0.5        0.711          0.711     
+0.5    0.7        0.718          0.716     
+1.0    0.9        0.726          0.678     
+1.5    0.9        0.650          0.526     

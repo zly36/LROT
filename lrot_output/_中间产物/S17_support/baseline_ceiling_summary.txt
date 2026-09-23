@@ -1,0 +1,10 @@
+== synthetic ==
+default LROT(a=.5,b=.3,g=.1): acc=0.6310 ent=3.5589
+best FGW over grid (g=0):      acc=0.4510 ent=4.8169 at a=0.3 b=0.3
+best LROT over grid (g=.1):    acc=0.8210 ent=3.8920 at a=0.5 b=0.6
+default FGW(a=.5,b=.3,g=0):    acc=0.3630 ent=3.5609
+== realistic ==
+default LROT(a=.5,b=.3,g=.1): acc=0.7120 ent=3.9279
+best FGW over grid (g=0):      acc=0.7690 ent=6.0605 at a=0.1 b=0.1
+best LROT over grid (g=.1):    acc=0.7770 ent=5.8790 at a=0.1 b=0.1
+default FGW(a=.5,b=.3,g=0):    acc=0.7110 ent=4.0351

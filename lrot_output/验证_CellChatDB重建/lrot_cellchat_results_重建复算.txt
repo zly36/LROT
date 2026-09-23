@@ -1,0 +1,15 @@
+⚠ 本文件是 **2,094 对旧口径**的复算结果（2026-09-18 标注），已被取代。
+⚠ 现行正确值：派生库 2,059 对（→ 数据内有效对 38 对；与 61 对库重叠 54 对）。
+⚠ 现行结果见 `lrot_output/lrot_cellchat_results.txt`。下列 "2094 对" / "22→28" 均为旧口径。
+# ============================================================================
+
+CellChatDB Large Database Comparison (重建复算)
+数据源: CellChatDB.mouse.rda (官方 sqjin/CellChat, sha256=7FE204B12BE2B820B2B20D95E6BFDB45E8F0203B8166B4318A70F1326446A4DA)
+现有 LR_DB: 61 对; CellChatDB: 2094 对
+数据内有效: 61对→22, CellChatDB→28
+
+  数据库                   γ     Acc       Entropy   
+  LR_DB (61对)           0.10  0.7120    3.9279    
+  LR_DB (61对)           0.20  0.7090    3.8212    
+  CellChatDB (2094对)    0.10  0.7050    3.9359    
+  CellChatDB (2094对)    0.20  0.7050    3.8281    

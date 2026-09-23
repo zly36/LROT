@@ -1,0 +1,18 @@
+========================================================================
+  LROT on Real 10x Visium Mouse Brain - RESULTS
+========================================================================
+Data: 1000 sampled spots (from 5303), 19465 genes
+Transform: rotation=12.0 deg, scale=0.97, batch noise=10%
+
+  Method            Cost     Entropy
+  ----------------------------------------
+  FGW (gamma=0)   0.0073   0.3342
+  LROT (gamma=0.1)0.0070   0.3179
+
+  (exact) FGW cost=0.007306 entropy=0.334163
+  (exact) LROT cost=0.006957 entropy=0.317919
+
+  Cost improvement: 4.77%
+  Entropy improvement: 4.86%
+  LROT loss iterations: 7
+  Top LR pairs: [('Ncam1', 'Ncam1'), ('Slit2', 'Robo2'), ('Ntng1', 'Ntrk2'), ('Efna1', 'Epha4'), ('L1cam', 'L1cam'), ('Bdnf', 'Ntrk2')]

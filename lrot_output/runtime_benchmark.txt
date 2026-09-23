@@ -1,0 +1,9 @@
+运行时间基准 (真实感模拟数据, 1000 spots, seed=42)
+============================================================
+LROT (γ=0.1)             2.97    s
+FGW 复现 (γ=0)             4.08    s
+Official PASTE (α=0.5)   8.17    s
+Official PASTE2 (α=0.1)  3.27    s
+STAligner (训练)           171.30  s
+============================================================
+加速比: LROT vs Official PASTE = 2.8x; LROT vs PASTE2 = 1.1x; LROT vs STAligner = 57.7x

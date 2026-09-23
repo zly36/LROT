@@ -1,0 +1,15 @@
+============================================================================
+  LR Database Sensitivity Results
+============================================================================
+Data: 1000 spots x 150 genes, rotation=5.0, batch=0.15
+
+  Database           gamma     Acc       Cost      Entropy   Time(s)  
+  ---------------------------------------------------------------
+  Full LR Database   0.1       0.7120    0.5131    3.9279    2.95     
+  Full LR Database   1.0       0.2340    0.6997    4.1375    12.51    
+  Shuffled LR        0.1       0.7020    0.5151    3.7564    3.02     
+  Shuffled LR        1.0       0.0710    0.7156    3.8211    66.49    
+  Adhesion Only      0.1       0.7060    0.5103    3.7129    3.03     
+  Adhesion Only      1.0       0.2250    0.3412    5.4488    26.44    
+
+  Note: gamma=1.0 uses alpha=0 (pure LR guidance mode).

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Word/temp files
+~$*
+*.tmp
+
+# Raw data (download per RUN_REPRO.md section 2; never commit)
+cancer_data/*
+!cancer_data/README.md
+dlpfc_data/*
+!dlpfc_data/README.md
+data/go/
+
+# Large regenerable intermediates (>100 MB, see lrot_output/README.md)
+lrot_output/数据_npz/lrot_data_breast_cancer_truecoord.npz
+lrot_output/数据_npz/lrot_data_dlpfc_fullscale.npz

@@ -1,0 +1,10 @@
+== synthetic control (3 seeds) ==
+lr_program=True  gamma=0.0  acc=0.3493+-0.0166 ent=3.5344+-0.0339
+lr_program=True  gamma=0.1  acc=0.5363+-0.1207 ent=3.5280+-0.0292
+lr_program=False gamma=0.0  acc=0.3493+-0.0166 ent=3.5344+-0.0339
+lr_program=False gamma=0.1  acc=0.3490+-0.0194 ent=3.5315+-0.0338
+== realistic control (3 seeds) ==
+lr_program=True  gamma=0.0  acc=0.8060+-0.1145 ent=3.9775+-0.0918
+lr_program=True  gamma=0.1  acc=0.8090+-0.1108 ent=3.8659+-0.0927
+lr_program=False gamma=0.0  acc=0.8067+-0.0364 ent=4.2537+-0.0841
+lr_program=False gamma=0.1  acc=0.8033+-0.0405 ent=3.9332+-0.0890

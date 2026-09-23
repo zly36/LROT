@@ -1,0 +1,29 @@
+==============================================================================
+Item-3 control: LR genes excluded from C_expr vs all-genes C_expr
+Data: 1,000 spots x 150 genes, rotation=5deg, scale=0.95, batch_effect=0.15 (main default)
+5 seeds; alpha=0.5, beta=0.3; LROT gamma=0.1 vs FGW gamma=0
+==============================================================================
+seed=42 | FGW-exclude acc=0.711 ent=4.0351 LROT-exclude acc=0.712 ent=3.9279 FGW-allgenes acc=0.689 ent=4.0656 LROT-allgenes acc=0.695 ent=3.9401
+seed=1042 | FGW-exclude acc=0.743 ent=3.9980 LROT-exclude acc=0.748 ent=3.8684 FGW-allgenes acc=0.755 ent=4.1300 LROT-allgenes acc=0.750 ent=4.0023
+seed=2042 | FGW-exclude acc=0.768 ent=4.0016 LROT-exclude acc=0.775 ent=3.8679 FGW-allgenes acc=0.767 ent=4.0293 LROT-allgenes acc=0.767 ent=3.9017
+seed=3042 | FGW-exclude acc=0.676 ent=3.9487 LROT-exclude acc=0.679 ent=3.8423 FGW-allgenes acc=0.684 ent=4.1744 LROT-allgenes acc=0.685 ent=4.0596
+seed=4042 | FGW-exclude acc=0.612 ent=4.1325 LROT-exclude acc=0.612 ent=4.0145 FGW-allgenes acc=0.605 ent=4.1710 LROT-allgenes acc=0.615 ent=4.0612
+
+C_expr gene usage: n_total=150, n_LR=50 (excluded in "exclude" policy), n_nonLR=100
+
+==============================================================================
+AGGREGATE (5-seed means +/- std)
+config             accuracy       entropy      n         
+FGW-exclude        0.702          4.0232      
+LROT-exclude       0.705          3.9042      
+FGW-allgenes       0.700          4.1141      
+LROT-allgenes      0.702          3.9930      
+
+Fairness checks (mean over 5 seeds):
+  1) LROT(exclude) vs FGW(exclude) : dAcc=+0.003 | entropy drop=2.96%
+  2) LROT(exclude) vs FGW(all-genes full info): dAcc=+0.005 | entropy drop=5.10%
+  3) gene-set effect under gamma=0 : dAcc=-0.002 | dEntropy=+0.0909  (FGW-allgen vs FGW-excl)
+  4) gene-set effect under gamma=.1: dAcc=-0.003 | dEntropy=+0.0888  (LROT-allgen vs LROT-excl)
+
+Interpretation: if (2) remains positive/comparable and (3)-(4) are small,
+the LR entropy benefit and accuracy parity do not come from an information-poor FGW baseline.

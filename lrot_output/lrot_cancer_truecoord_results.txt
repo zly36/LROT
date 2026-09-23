@@ -1,0 +1,30 @@
+========================================================================
+  LROT on Human Breast Cancer Visium - TRUE tissue coordinates
+  V1_Breast_Cancer_Block_A_Section_1  ->  V1_Breast_Cancer_Block_A_Section_2
+  Real 10x tissue pixel coords (centered), B misaligned (2deg + 0.5), 3000 spots
+========================================================================
+
+Slice A: V1_Breast_Cancer_Block_A_Section_1 (3000 spots, 36601 genes, seed 42)
+Slice B: V1_Breast_Cancer_Block_A_Section_2 (3000 spots, 36601 genes, seed 99)
+
+LR pairs matched: 10/68
+Top LR pairs:
+  1. ERBB2-ERBB2 (weight=0.98)
+  2. CDH1-CDH1 (weight=0.95)
+  3. ERBB2-ERBB3 (weight=0.92)
+  4. COL1A1-ITGA2 (weight=0.85)
+  5. SEMA3F-NRP2 (weight=0.85)
+  6. SEMA4D-PLXNB1 (weight=0.80)
+  7. CXCL12-CXCR4 (weight=0.95)
+  8. JAG2-NOTCH2 (weight=0.83)
+
+FGW (gamma=0):
+  Entropy=5.8465  Cost=0.1144  Time=43.7s
+  Effective targets/row: median=431.8  mean=449.7  top1=0.030
+LROT (gamma=0.1):
+  Entropy=5.8176  Cost=0.1143  Time=37.3s
+  Effective targets/row: median=422.0  mean=434.7  top1=0.032
+
+Entropy reduction: 0.49%
+Cost change: +0.11%
+LROT iterations: 9

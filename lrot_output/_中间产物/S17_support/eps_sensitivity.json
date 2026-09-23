@@ -1,0 +1,42 @@
+{
+ "dataset": "realistic",
+ "seed": 42,
+ "rows": [
+  {
+   "eps_mult": 0.5,
+   "gamma": 0.0,
+   "acc": 0.7,
+   "entropy": 2.2422645741198397
+  },
+  {
+   "eps_mult": 0.5,
+   "gamma": 0.1,
+   "acc": 0.717,
+   "entropy": 2.1564989268151993
+  },
+  {
+   "eps_mult": 1.0,
+   "gamma": 0.0,
+   "acc": 0.711,
+   "entropy": 4.035127962437146
+  },
+  {
+   "eps_mult": 1.0,
+   "gamma": 0.1,
+   "acc": 0.712,
+   "entropy": 3.9278691068986635
+  },
+  {
+   "eps_mult": 2.0,
+   "gamma": 0.0,
+   "acc": 0.746,
+   "entropy": 5.358823572074434
+  },
+  {
+   "eps_mult": 2.0,
+   "gamma": 0.1,
+   "acc": 0.743,
+   "entropy": 5.300010310827462
+  }
+ ]
+}
