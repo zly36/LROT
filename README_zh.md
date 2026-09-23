@@ -53,7 +53,7 @@ python experiments/dlpfc_layer_ratio.py     # 例：复现图S13
 ## 引用与归档
 
 * 代码仓库：<https://github.com/zly36/LROT>
-* Zenodo 归档（v1.0.3，永久 DOI）：<https://doi.org/10.5281/zenodo.22908788>
+* Zenodo 归档（v1.0.4，永久 DOI）：<https://doi.org/10.5281/zenodo.22915948>
 * 全部版本的概念 DOI：<https://doi.org/10.5281/zenodo.22898129>
 
 ## 许可协议

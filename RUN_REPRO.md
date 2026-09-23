@@ -4,7 +4,7 @@ This package accompanies the paper **LROT: ligand–receptor-guided optimal tran
 transcriptomics slice alignment**. It is meant to let a reviewer reproduce the figures and key
 numbers of the paper **without modifying a single path**.
 
-**Archive DOI**: <https://doi.org/10.5281/zenodo.22908788> (the v1.0.3 snapshot); the concept DOI
+**Archive DOI**: <https://doi.org/10.5281/zenodo.22915948> (the v1.0.4 snapshot); the concept DOI
 <https://doi.org/10.5281/zenodo.22898129> always resolves to the latest version.
 
 > Chinese version: [`RUN_REPRO_zh.md`](RUN_REPRO_zh.md).

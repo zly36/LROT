@@ -56,7 +56,7 @@ python experiments/dlpfc_layer_ratio.py     # e.g. reproduce Figure S13
 ## Citation and archive
 
 * Code repository: <https://github.com/zly36/LROT>
-* Zenodo archive (v1.0.3, permanent DOI): <https://doi.org/10.5281/zenodo.22908788>
+* Zenodo archive (v1.0.4, permanent DOI): <https://doi.org/10.5281/zenodo.22915948>
 * Concept DOI covering all versions: <https://doi.org/10.5281/zenodo.22898129>
 
 ## License

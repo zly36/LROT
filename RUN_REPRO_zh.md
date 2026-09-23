@@ -3,7 +3,7 @@
 本包对应论文 **LROT: ligand–receptor-guided optimal transport for spatial transcriptomics
 slice alignment**。目标是让审稿人在**不修改任何路径**的情况下复现论文图件与关键数值。
 
-**归档 DOI**：<https://doi.org/10.5281/zenodo.22908788>（对应 v1.0.3 快照）；概念 DOI <https://doi.org/10.5281/zenodo.22898129> 始终指向最新版本。
+**归档 DOI**：<https://doi.org/10.5281/zenodo.22915948>（对应 v1.0.4 快照）；概念 DOI <https://doi.org/10.5281/zenodo.22898129> 始终指向最新版本。
 
 > 英文版见 [`RUN_REPRO.md`](RUN_REPRO.md)。
 
